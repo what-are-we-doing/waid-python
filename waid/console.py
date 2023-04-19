@@ -1,0 +1,3 @@
+"""
+Advanced console log handler.
+"""

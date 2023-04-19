@@ -1,0 +1,3 @@
+"""
+Configuration code for waid.
+"""

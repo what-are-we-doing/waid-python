@@ -30,6 +30,7 @@ GitHub = "https://github.com/lenskit/seedbank"
 dev = [
     "flit >=3.2",
     "flake8",
+    "black >=23",
     "sphinx-autobuild",
 ]
 test = [
@@ -43,3 +44,6 @@ doc = [
     "sphinxext-opengraph >= 0.5",
     "furo",
 ]
+
+[tool.black]
+line-length = 100
