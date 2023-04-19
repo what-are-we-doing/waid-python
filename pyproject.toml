@@ -1,0 +1,45 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "waid"
+authors = [
+    {name="Michael Ekstrand", email="ekstrand@acm.org"}
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+]
+requires-python = ">= 3.8"
+readme = "README.md"
+dynamic = ["version", "description"]
+dependencies = [
+]
+
+[project.urls]
+Homepage = "https://seedbank.lenksit.org"
+GitHub = "https://github.com/lenskit/seedbank"
+
+[project.optional-dependencies]
+dev = [
+    "flit >=3.2",
+    "flake8",
+    "sphinx-autobuild",
+]
+test = [
+    "pytest >= 6",
+    "pytest-doctestplus",
+    "pytest-cov",
+    # "hypothesis",
+]
+doc = [
+    "sphinx >=4",
+    "sphinxext-opengraph >= 0.5",
+    "furo",
+]
