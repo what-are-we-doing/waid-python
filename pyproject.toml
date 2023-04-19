@@ -23,8 +23,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://seedbank.lenksit.org"
-GitHub = "https://github.com/lenskit/seedbank"
+# Homepage = "https://wawd.lenksit.org"
+GitHub = "https://github.com/what-are-we-doing"
 
 [project.optional-dependencies]
 dev = [
